@@ -1,0 +1,212 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* Default styles for the contact section */
+.contact-section {
+  font-family: Arial, sans-serif;
+  padding: 40px;
+  background: linear-gradient(to right, #e0c3fc, #8ec5fc); /* Replaced here */
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+
+.contact-wrapper {
+  display: flex;
+  flex-direction: row-reverse; /* This flips the image and box */
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.contact-left {
+  flex: 1;
+  padding: 20px;
+  max-width: 600px; /* Set maximum width for better alignment */
+}
+
+.contact-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-img {
+  width: 90%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-title {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #6a1b9a; /* Purple color for the title */
+}
+
+.contact-card {
+  background-color: #fff;
+  padding: 3px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  font-size: 1.1rem;
+  width: 100%;
+}
+
+.contact-card:hover {
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for the info box */
+.contact-info-box {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info-box a {
+  color: #6a1b9a;
+  text-decoration: none;
+}
+
+.contact-info-box a:hover {
+  text-decoration: underline;
+}
+
+/* Light shiny effect on the card */
+.contact-card {
+  border: 2px solid transparent;
+  background-image: linear-gradient(white, white),
+    radial-gradient(circle at top left, #bb66d6, #9c27b0, #6a1b9a);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+/* Styling for icons */
+.contact-info-box svg {
+  margin-right: 10px;
+  color: #6a1b9a; /* Purple icon color */
+  font-size: 1.3rem;
+}
+
+.contact-title {
+  color: #6a1b9a;
+}
+
+/* Adjusting link styling */
+.contact-info-box p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+.nav-link {
+  display: flex;
+  align-items: center;
+  margin-right: 2rem; /* spacing between links */
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #6366f1; /* indigo-400 on hover */
+}
+
+.nav-link span {
+  margin-left: 0.5rem;
+}
+
+.nav-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.social-container {
+  text-align: center;
+  color: white;
+}
+
+.social-icons {
+  list-style: none;
+  display: flex; /* Display the items horizontally */
+  justify-content: center;
+  gap: 2rem; /* Space between the icons */
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.social-icons li {
+  background-color: white; /* White background for the circular icons */
+  border-radius: 50%; /* Make it circular */
+  padding: 1rem; /* Make the background bigger to accommodate icons */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icons li a {
+  font-size: 2rem; /* Increase icon size */
+  color: inherit; /* Inherit the color of the parent, which is set to white */
+}
+
+/* Optional: Brand Colors for Icons */
+.social-icons li a:hover {
+  transform: scale(1.1); /* Increase icon size on hover */
+  transition: 0.3s ease-in-out;
+}
+
+.github a {
+  color: #000000; /* GitHub icon color */
+}
+
+.facebook a {
+  color: #1877F2; /* Facebook icon color */
+}
+
+.linkedin a {
+  color: #0A66C2; /* LinkedIn icon color */
+}
+
+.instagram a {
+  color: #E1306C; /* Instagram icon color */
+}
+
+

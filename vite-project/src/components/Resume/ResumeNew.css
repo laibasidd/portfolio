@@ -1,0 +1,48 @@
+/* ResumeNew.css */
+.resume-section {
+    background-color: #f0f0f0; /* Neutral background for the page */
+    padding: 0;
+  }
+  
+  .resume-heading {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #e5dced; /* Purple color from the theme */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .download-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #623686; /* Purple background color */
+    padding: 15px 30px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border: 2px solid #623686; /* Border to match the button */
+    width: fit-content;
+    margin: 0 auto;
+    transition: all 0.3s ease;
+  }
+  
+  .download-btn:hover {
+    background-color: #6d20c5d7; /* Darker hover color */
+    border-color: #6d20c5d7;  /* Darker border on hover */
+  }
+  
+  .download-icon {
+    font-size: 1.6rem; /* Icon size */
+  }
+  
+  .download-text {
+    font-weight: bold;
+    font-size: 1.2rem; /* Text size */
+  }
+  
+  .download-btn:hover .download-text {
+    color: white; /* Change text color when hovering */
+  }
+  
